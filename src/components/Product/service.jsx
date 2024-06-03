@@ -1,4 +1,4 @@
-import styles from "../../styles/feature.module.css";
+import styles from "../../styles/service.module.css";
 import book from "../../assets/bx_bxs-book-reader.svg"
 import read from "../../assets/icon cool-icon-153.svg"
 import arrow from "../../assets/icon cool-icon-125.svg"

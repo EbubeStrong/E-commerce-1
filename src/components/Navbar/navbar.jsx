@@ -152,7 +152,7 @@ function Navbar() {
   };
 
   return (
-    <header>
+    <header className={styles["navbarHeader"]}>
       <div className={styles.details}>
         <div className={styles["details-content"]}>
           <div className={styles["icon-txt"]}>

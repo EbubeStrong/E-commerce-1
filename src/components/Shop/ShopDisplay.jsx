@@ -24,7 +24,8 @@ const ArticleSection = () => {
   return (
     <div className={styles["article-mainContainer"]}>
       <div className={styles["article-container"]}>
-        <div className={styles["article-header"]}>
+        <div className={styles["article-header"]}
+        >
           <p>Description</p>
           <p>Additional Information</p>
           <p>
@@ -38,13 +39,19 @@ const ArticleSection = () => {
               key={product.id}
               className={styles["article-contentContainer"]}
             >
-              <h3>{product.title}</h3>
+              <h3
+              data-aos="fade-right"
+              >{product.title}</h3>
               <div className={styles.content}>
                 <div className={styles["article-content"]}>
-                  <h6>{product.description}</h6>
+                  <h6
+                  data-aos="fade-right"
+                  >{product.description}</h6>
                 </div>
                 <div className={styles["image-article"]}>
-                  <img src={product.thumbnail} alt={product.title} />
+                  <img 
+                  data-aos="zoom-in"
+                  src={product.thumbnail} alt={product.title} />
                 </div>
               </div>
             </div>

@@ -53,7 +53,12 @@ function Carddisplay() {
 
   return (
     <div className={styles.card}>
-      <div className={styles["hero-mainContainer"]}>
+      <div className={styles["hero-mainContainer"]}
+       data-aos="fade-up"
+       data-aos-offset="0"
+       data-aos-duration="700"
+       data-aos-delay="300"
+      >
         <div className={styles["shop-links"]}>
           <nav>
             <a href="#" className={styles["home"]}>
@@ -71,14 +76,17 @@ function Carddisplay() {
               <div className={styles["image-contents"]}>
                 <div className={styles["image-content"]}>
                   <img
+                  data-aos="zoom-in"
+                  data-aos-once="true"
                     src={product.images[0]}
                     alt={product.title}
+                    loading="lazy"
                   />
                   <div
                     className={styles["left-icon"]}
                     onClick={handlePrevBatch}
                   >
-                    <FaAngleLeft />
+                    <FaAngleLeft className="left-display"/>
                   </div>
                   <div
                     className={styles["right-icon"]}
@@ -89,11 +97,15 @@ function Carddisplay() {
                 </div>
                 <div className={styles["image-1"]}>
                   {product.images.map((img, index) => (
-                    <img key={index} src={img} alt={product.title} />
+                    <img key={index} src={img} alt={product.title} loading="lazy"
+                    data-aos="slide-up"
+                    />
                   ))}
                 </div>
               </div>
-              <div className={styles["hero-content-2"]}>
+              <div className={styles["hero-content-2"]}
+              data-aos="fade"
+              >
                 <h4>{product.title}</h4>
                 <div className={styles["icons"]}>
                   <img src={star} alt="Star rating" />

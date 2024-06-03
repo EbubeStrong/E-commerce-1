@@ -45,21 +45,21 @@ function Slide() {
   }
 
   return (
-    <div
-      className={styles.product}
-      
-    >
+    <div className={styles.product}>
       <div className={styles["product-container"]}>
-        
-        {displayedProducts.map((product, index, ) => (
+        {displayedProducts.map((product, index) => (
           <div
-          data-aos="fade-up"
-              data-aos-offset="0"
-              data-aos-duration="700"
-              data-aos-delay="300"
-           key={index} className={styles[`furniture-content`]}>
+            data-aos="fade-up"
+            data-aos-offset="0"
+            data-aos-duration="700"
+            data-aos-delay="300"
+            key={index}
+            className={styles[`furniture-content`]}
+          >
             <div>
               <img
+                data-aos="zoom-in"
+                data-aos-once="true"
                 src={product.thumbnail}
                 className={styles.image}
                 alt={`Product ${index + 1}`}
@@ -68,20 +68,27 @@ function Slide() {
 
             <div className={styles[`furniture-item`]}>
               <p
-              data-aos="zoom-out"
-              data-aos-duration="800"
-              data-aos-once="true"
-              >{product.stock} Item</p>
+                data-aos="zoom-out"
+                data-aos-duration="800"
+                data-aos-once="true"
+              >
+                {product.stock} Item
+              </p>
               <h2
-              data-aos="zoom-out"
-              data-aos-duration="800"
-              data-aos-once="true"
-              >{product.category.toUpperCase()}</h2>
+                data-aos="zoom-out"
+                data-aos-duration="800"
+                data-aos-once="true"
+              >
+                {product.category.toUpperCase()}
+              </h2>
               <a
-              data-aos="zoom-out"
-              data-aos-duration="800"
-              data-aos-once="true"
-               href="#">Read More</a>
+                data-aos="zoom-out"
+                data-aos-duration="800"
+                data-aos-once="true"
+                href="#"
+              >
+                Read More
+              </a>
             </div>
           </div>
         ))}

@@ -1,6 +1,6 @@
 import Navbar from "../Navbar/navbar";
 import Slide from "../Slider/Slider";
-import Feature from "../Product/feature";
+import Feature from "../Product/service";
 import Post from "../Product/post";
 import Testimonial from "../Product/testimonial";
 import CartBackground from "../Product/productBackground";

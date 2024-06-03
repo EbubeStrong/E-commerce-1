@@ -25,7 +25,12 @@ function Post() {
 
   return (
     <>
-      <div className={styles.post}>
+      <div className={styles.post}
+       data-aos="fade-up"
+       data-aos-offset="0"
+       data-aos-duration="1500"
+       data-aos-delay="300"
+      >
         <div className={styles["featured-post-container"]}>
           <div className={styles["featured-post-text"]}>
             <p>Practice Advice</p>
@@ -34,9 +39,11 @@ function Post() {
         </div>
         <div className={styles["featured-item"]}>
           {products.slice(0, 3).map((product) => (
-            <div key={product.id} className={styles["featured-post-content"]}>
+            <div key={product.id} 
+            data-aos="fade-up"
+            className={styles["featured-post-content"]}>
               <div className={styles["box-cnt"]}>
-                <img src={box} className={styles.box} alt="box" />
+                <img src={box} className={styles.box} alt="box" loading="lazy"/>
               </div>
               <img
                 src={product.thumbnail}
