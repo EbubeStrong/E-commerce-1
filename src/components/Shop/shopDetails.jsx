@@ -97,8 +97,9 @@ function Carddisplay() {
                 </div>
                 <div className={styles["image-1"]}>
                   {product.images.map((img, index) => (
-                    <img key={index} src={img} alt={product.title} loading="lazy"
+                    <img 
                     data-aos="slide-up"
+                    key={index} src={img} alt={product.title} loading="lazy"
                     />
                   ))}
                 </div>
