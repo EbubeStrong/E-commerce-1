@@ -113,7 +113,7 @@
 }
 
 .footer-content-3 {
-  padding: 25px 10px 20px 170px;
+  padding: 25px 10px 0 170px;
   width: 100vw;
   background: #fafafa;
   /* margin-left: 20rem; */
@@ -154,7 +154,7 @@
 }
 @media (max-width: 650px) {
   .footer-content-3 {
-    padding: 25px 10px 20px 140px;
+    padding: 25px 10px 0 140px;
     width: 100vw;
     background: #fafafa;
   }
@@ -177,7 +177,7 @@
 }
 @media(max-width: 450px){
   .footer-content-3 {
-    padding: 25px 10px 20px 90px;
+    padding: 25px 10px 0 90px;
     width: 100vw;
     background: #fafafa;
   }

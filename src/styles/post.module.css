@@ -186,4 +186,13 @@
     letter-spacing: 0.224px;
     text-align: center;
   }
+  .featured-post-content {
+    width: 90%;
+  }
+}
+
+@media(max-width: 650px){
+  .featured-post-content {
+    width: 70%;
+  }
 }
