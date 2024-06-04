@@ -5,6 +5,7 @@
   margin-top: 1rem;
   padding-top: 30px;
   padding-bottom: 3rem;
+  overflow: hidden;
 }
 
 .product-content {

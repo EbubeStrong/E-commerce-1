@@ -6,6 +6,7 @@
   background: #fff;
   margin-bottom: 70px;
   height: 110px;
+  overflow: hidden;
 }
 .details {
   width: 100%;
@@ -170,7 +171,6 @@
   .navbarHeader{
     background-color: #fff;
     height: 50px;
-    /* overflow: hidden; */
   }
 
   .navbar_2 {
