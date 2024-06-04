@@ -170,6 +170,7 @@
   .navbarHeader{
     background-color: #fff;
     height: 50px;
+    overflow-y: scroll;
   }
 
   .navbar_2 {
