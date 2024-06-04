@@ -181,14 +181,12 @@
     z-index: 1000;
     background-color: #fff;
     margin-bottom: 30px;
-    /* overflow: hidden; */
   }
 
   .navbar_2 h3 {
     padding-left: 40px;
   }
   .hamburgerMenu {
-    /* position: relative; */
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -232,11 +230,10 @@
     top: 50px;
     left: 10px;
     width: 97%;
-    padding-top: 30px;
-    /* padding-left: 12rem; */
     height: 100%;
+    padding-top: 30px;
+    height: 100vw;
     transition: 0.3s ease, transform 0.3s ease;
-    /* transform: translateY(-100%); */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
 
@@ -254,7 +251,6 @@
   }
 
   .navMenu ul li {
-    padding: 15px 20px;
     width: 100%;
   }
 
