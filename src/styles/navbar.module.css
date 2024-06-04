@@ -1,12 +1,11 @@
 .navbarHeader{
-  position: -webkit-sticky; /* For Safari */
+  position: -webkit-sticky; 
   position: sticky;
   top: 0;
   z-index: 1000; 
   background: #fff;
   margin-bottom: 70px;
   height: 110px;
-  overflow: hidden;
 }
 .details {
   width: 100%;
