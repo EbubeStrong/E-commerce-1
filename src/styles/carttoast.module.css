@@ -12,6 +12,8 @@
   height: 152px;
   padding: 16px 16px;
   gap: 8px;
+  /* overflow: hidden; */
+  z-index: 1000;
 }
 
 .success-container {

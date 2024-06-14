@@ -18,9 +18,11 @@
 .featured-item {
   display: flex;
   width: 100%;
-  gap: 10px;
+  row-gap: 20px;
+  column-gap: 30px;
   justify-content: center;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .box-cnt {
